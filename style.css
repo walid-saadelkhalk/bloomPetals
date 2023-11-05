@@ -395,13 +395,3 @@ label{
 
 
 
-/*responsive*/
-@media (max-width: 1200px) {
-    .container-parent{
-        display: flex;
-        flex-direction: column;
-        width: auto;    
-    }
-    
-    
-}
