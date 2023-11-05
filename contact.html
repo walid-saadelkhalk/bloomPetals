@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>BloomPetals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <header>
+        <section id="section0" class="header container">
+            <nav>
+            
+                <ul class="menu">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="entreprise.html"> Entreprise</a></li>
+                    <li><a href="realisations.html"> Réalisations</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+                <form>
+                    <input type="search" name="q" placeholder="Rechercher">
+                </form>   
+                 
+            </nav>
+        </section>
+        
+    </header>   
+
+    <main>
+        <h1> BloomPetals</h1>
+        <h2> Contactez-nous </h2>
+        <form class="formulaire-de-contact">
+
+            <label id="label_sexe" for="sexe"> Civilité</label>
+            <select id="sexe" name="sexe">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+            <label for="nom">Nom et Prénom :</label>
+            <input type="text" id="nom" name="nom" required>
+          
+            <label for="adresse">Adresse postale :</label>
+            <input type="adresse" id="adresse" name="adresse" required>
+          
+            <p id="politiques">
+                Politiques de confidentialité
+            </p> 
+            <input type="checkbox" value="Valider">
+           
+            <input type="submit" value="Envoyer">
+        </form>
+
+    </main>
+   
+    <footer>
+    </footer>
+</body>
+
+</html>

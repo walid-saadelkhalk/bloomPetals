@@ -1,0 +1,407 @@
+/*Modifications générales*/
+/*Header*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:bisque;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}    
+
+nav {
+    padding-top: 0.5%;
+}
+
+/*bande violette*/
+.header {
+    background-color: rgb(166, 81, 245);
+}
+
+
+/*barre de recherche*/
+form{
+    height: 3vh;
+    width: 2vw;
+    margin-top: 2vh;
+    margin-left: 180%;
+    padding: 0.2%;
+    padding-right: -60%;
+}
+
+
+
+input{
+    border-radius: 30px;
+    margin-top: -2vh;
+    height: 4vh;
+    text-align: center;
+}
+/*fin barre de recherche*/
+
+/*accueil navigation*/
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top:-3.5vh ;
+}
+
+
+ul li a {
+    color:black;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover {
+    color:  antiquewhite;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 27px;
+    font-size: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+/*fin accueil navigation*/
+/*Fin de Header*/
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(166, 81, 245);
+    height: 10vh;
+    width: 100%;
+    margin-top: 10vh;
+}
+/*fin footer*/
+
+
+
+/*Main index*/
+h1 {
+    font-size: 5em;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(166, 81, 245);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 20);
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(166, 81, 245);
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 10);
+}
+
+p{
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ligne-horizontale{
+    height: 3px;
+    background-color: black;
+    margin: 10px 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.container-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+.container-parent img{
+    margin:50px;
+    margin-top: -5vh;
+    margin-bottom: -5vh;
+    justify-content: space-between;
+
+}
+
+.container-colonne{
+    display: flex;
+}
+
+.colonne{
+    flex: 1;
+    padding: 10px; 
+    border: 1px² solid black;
+}
+
+.photo-horizontale{
+    display: flex;
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+#section0{
+    margin-top: 0vh;
+}
+
+#section1{
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#section2{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#section3{
+    font-size: 25px;
+    text-align: center;
+}
+
+#section4{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+/*Fin de Main index*/
+
+
+
+
+
+
+
+
+
+
+
+/*Main contact*/
+label{
+    font-size: 1.2em;
+}
+
+.formulaire-de-contact {
+    margin: 100%;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 34%;
+    margin-bottom: 10%;
+    margin-top: 2vh;
+    padding: 1%;
+    background-color: rgb(166, 81, 245);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.formulaire-de-contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+#sexe{
+    width: 96%;
+    margin-top: -1vh;
+    padding: 10px;
+    margin-bottom: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire-de-contact input  {
+    width: 95%;
+    margin-bottom: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire-de-contact input[type="checkbox"] {
+    width: 5%;
+    padding: 10px;
+    margin-right: 15vh;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#politiques{
+    font-size: 1em;
+    margin-left: 0vh;
+    margin-top: -2vh;
+}
+  
+.formulaire-de-contact input[type="submit"] {
+    margin-top: -2vh;
+    text-align: center;
+    background-color: #0056b3;
+    margin-left: 0.4vw;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.formulaire-de-contact input[type="submit"]:hover {
+    background-color: black;
+}
+/*Fin de Main contact*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main réalisations*/
+#section22{
+   width: 90%;
+
+}
+.mosaique {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-content: space-between ;
+}
+  
+.picture {
+    margin: 10vh; /* Marge entre les photos */
+    padding: 5px; /* Facultatif : ajoutez un espace interne aux photos */
+    text-align: center; /* Centre le contenu des photos */
+    line-height: 150px; /* Facultatif : ajuste la hauteur pour centrer verticalement */
+}
+
+#section20{
+    font-size: 25px;
+    text-align: center;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+}
+
+#section21{
+    font-size: 35px;
+    text-align: center;
+}
+/*Fin de Main réalisations*/
+
+
+
+
+
+/*Main entreprise*/
+.entreprise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-content: space-between ;
+
+}
+
+/*gerante*/
+#gerante{
+    margin: 40%;
+    margin-top: 12vh;
+    margin-bottom: 20vh;
+    padding: 5px; 
+    text-align: center; 
+}
+/*fin gerante*/
+
+
+
+/*fleuriste*/
+#fleuriste{
+   margin-top: 2vh;
+   margin-bottom: 20vh;
+   padding: 15%;
+   padding-top: 0%;
+    padding-bottom: 0%;
+}
+/*fin fleuriste*/
+
+
+/*evenementiel*/
+#evenementiel{
+    margin-top: 2vh;
+    margin-bottom: 20vh;
+    padding: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+/*fin evenementiel*/
+
+/*cadre*/
+.cadre {
+    transition: transform 0.5s;
+    line-height: 30px; 
+    text-align: center;
+    cursor:default;
+    background-color: bisque;
+
+
+}
+
+.cadre:hover {
+    transform: scale(1.7);
+
+}
+
+.cadre:after{
+    width: 500px;
+    height: 500px;
+    top: -50px;
+    left: -100px;
+    transition: all 1.5s;
+}
+
+.cadre:hover::after {
+    transform: rotate(180deg);
+}
+
+
+.liste-horizontale {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 10px;  
+}
+/*fin cadre*/
+/*Fin de Main entreprise*/
+
+
+
+
+/*responsive*/
+@media (max-width: 1200px) {
+    .container-parent{
+        display: flex;
+        flex-direction: column;
+        width: auto;    
+    }
+    
+    
+}
