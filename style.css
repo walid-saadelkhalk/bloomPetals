@@ -9,6 +9,7 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }    
 
 nav {
@@ -25,10 +26,8 @@ nav {
 
 /*barre de recherche*/
 
-
 form{
-    margin-top: 10vh;
-   
+    margin-bottom: -2%;
 }
 
 
@@ -36,8 +35,10 @@ form{
 #input_nav{
     width: 10vw;
     height: 4vh;
-    margin-left: 1%;
-    padding: 10%;
+    margin: 1%;
+    margin-left: 3%;
+    padding: 1%;
+    margin-top: 50%;
     border-radius: 30px;
     border: 1px solid #ccc;
 }
@@ -47,15 +48,15 @@ form{
         width: 30vw;
         height: 4vh;
         margin-left: 1%;
+        margin-right: 20%;
         padding: 10%;
         border-radius: 30px;
         border: 1px solid #ccc;
     }
 
     nav {
-        padding-top: 0.5%;
-        width: 80vw;
-        height: 30vh;
+        width: 30vw;
+        height: 45vh;
     }
 }
 
@@ -138,6 +139,14 @@ ul li a:hover {
 /*fin accueil navigation*/
 /*Fin de Header*/
 
+@media (max-width: 1002px) {
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top:3.5vh ;
+    }
+}
 
 
 /*footer*/
